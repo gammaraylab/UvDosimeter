@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Tube Length Input -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tube_length_cm"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/tubeLength"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:text="@string/_17"
+        android:hint="@string/max_length_17cm"
+        android:selectAllOnFocus="true"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Distance Input -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/distance_cm"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/distance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:hint="@string/enter_distance"
+        android:text="@string/_20"
+        android:selectAllOnFocus="true"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Offset Input -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/offset_cm"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/offset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:text="@string/_0"
+        android:hint="@string/enter_offset"
+        android:selectAllOnFocus="true"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Time Input -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/time_s"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints="@string/enter_time"
+        android:inputType="numberDecimal"
+        android:text="@string/_60"
+        android:hint="@string/enter_time"
+        android:selectAllOnFocus="true"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Button to Calculate Dose -->
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/calculate_dose"
+        android:layout_gravity="center"
+        android:onClick="onClickListener"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Dose Output -->
+    <TextView
+        android:id="@+id/dose"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/dose_0_0_mjcm"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="24dp"/>
+
+</LinearLayout>

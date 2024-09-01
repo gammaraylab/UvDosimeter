@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">UV dosimeter</string>
+    <string name="enter_distance">Enter distance</string>
+    <string name="_20">20</string>
+    <string name="offset_cm">Offset (cm)</string>
+    <string name="enter_offset">Max offset is half of Tube length</string>
+    <string name="_0">0</string>
+    <string name="time_s">Time (s)</string>
+    <string name="enter_time">Enter time</string>
+    <string name="_60">60</string>
+    <string name="calculate_dose">Calculate Dose</string>
+    <string name="dose_0_0_mjcm">Dose: 0.0 mJcm⁻²</string>
+    <string name="max_length_17cm">Max length 17cm</string>
+    <string name="distance_cm">Distance (cm)</string>
+    <string name="_17">17</string>
+    <string name="tube_length_cm">Tube Length (cm)</string>
+</resources>
